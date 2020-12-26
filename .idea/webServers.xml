@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="936fb2d7-f506-4f11-a2e9-c28e67614b3b" name="start" url="https://ekbapp.ru">
+        <fileTransfer rootFolder="/var/www/ekbapp.ru" accessType="SFTP" host="ovz4.akademik170.m69km.vps.myjino.ru" port="49208" sshConfigId="8814837e-62b2-4573-8790-a02b468b66df" sshConfig="root@ovz4.akademik170.m69km.vps.myjino.ru:49208 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="0079499e-f4f5-45f5-bebf-b17549e2d599" name="center_os" url="https://ekbapp.ru">
+        <fileTransfer rootFolder="/var/www/domains/ekbapp.ru" accessType="SFTP" host="ovz4.akademik170.m69km.vps.myjino.ru" port="49208" sshConfigId="8814837e-62b2-4573-8790-a02b468b66df" sshConfig="root@ovz4.akademik170.m69km.vps.myjino.ru:49208 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
